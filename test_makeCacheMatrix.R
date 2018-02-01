@@ -1,3 +1,8 @@
+####
+# source the script containing the makeCacheMatrix() and cacheSolve() functions
+source('cachematrix.R')
+
+####
 # define an invertible matrix x
 x <- matrix(c(2,5,2,3), ncol = 2, nrow = 2)
 
